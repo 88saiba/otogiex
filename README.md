@@ -1,4 +1,4 @@
-# otogpy
+# otogitex
 Shortens the process of adding, committing, and pushing changes from your local repo to GitHub.<br>
 This script is useful if you have multiple GitHub accounts and want to avoid displaying your<br>
 personal access token on screen during a live stream. Just run this script.<br>
@@ -8,8 +8,8 @@ only for those who need it. I don't need comments/criticism if you don't have th
 to the conditions above.
 
 # Requirement
-You must have python version 3 or latest installed on your machine<br>
-(Unix-like Distro only like from Linux, BSD or MacOS. I'm sorry windows users, i'm not part of ur community).
+You must have elixir installed on your machine, better using latest version.<br>
+(Unix-like Distro only!! I'm sorry windows users, i'm not part of ur community).
 
 # Must Change First
 ## Configuration:
@@ -19,10 +19,10 @@ Replace `<YOUR_PERSONAL_ACCESS_TOKEN>` with your GitHub personal access token.<b
 Replace `<YOUR_REPOSITORY>` with the name of your GitHub repository.<br>
 
 ## Use Alias
-Add this code in your `.bashrc` or `.zshrc` file as an alias:
+Add this code in your `.bashrc` file as an alias:
 
 ```bash
-alias gitpush='python ~/path/to/gitpush.py'
+alias gitpush='elixir ~/path/to/gitpush.py'
 # For the "gitpush" alias name, you can change it to any alias you prefer.
 # For the path ~/path/to/gitpush.py, make sure to update it to the actual location
 # where you have placed the gitpush.py file. Ensure that you provide the correct path.
