@@ -5,7 +5,7 @@ defmodule GitPush do
 
   def run([commit_message]) do
     setup_git_credentials()
-    git_add_commit_push(commit_message)
+    |> git_add_commit_push(commit_message)
   end
 
   def run(_) do
@@ -13,23 +13,25 @@ defmodule GitPush do
   end
 
   defp run_command(command) do
-    {result, 0} = System.cmd("sh", ["-c", command])
-    result
-  rescue
-    _ -> IO.puts("Error running command: #{command}")
+    System.cmd("sh", ["-c", command])
+    |> handle_command_result(command)
   end
+
+  defp handle_command_result({result, 0}, _command), do: result
+  defp handle_command_result(_, command), do: IO.puts("Error running command: #{command}")
 
   defp setup_git_credentials do
     if not File.exists?(@credentials_file) do
       credentials = "https://#{@username}:#{@token}@github.com\n"
       File.write!(@credentials_file, credentials)
     end
+    :ok
   end
 
-  defp git_add_commit_push(commit_message) do
+  defp git_add_commit_push(:ok, commit_message) do
     run_command("git add .")
-    run_command("git commit -m \"#{commit_message}\"")
-    run_command("git push origin main")
+    |> fn _ -> run_command("git commit -m \"#{commit_message}\"") end.()
+    |> fn _ -> run_command("git push origin main") end.()
   end
 end
 
