@@ -21,10 +21,10 @@ Replace `<YOUR_PERSONAL_ACCESS_TOKEN>` with your GitHub personal access token.<b
 Add this code in your `.bashrc` file as an alias:
 
 ```bash
-alias gitpush='elixir ~/path/to/gitpush.py'
+alias gitpush='elixir ~/path/to/gitpush.exs'
 # For the "gitpush" alias name, you can change it to any alias you prefer.
-# For the path ~/path/to/gitpush.py, make sure to update it to the actual location
-# where you have placed the gitpush.py file. Ensure that you provide the correct path.
+# For the path ~/path/to/gitpush.exs, make sure to update it to the actual location
+# where you have placed the gitpush.exs file. Ensure that you provide the correct path.
 ```
 After that, run in your terminal the following command:
 
@@ -33,7 +33,7 @@ source ~/.bashrc
 ```
 
 # How To use
-Now you can use the gitpush alias to run Python scripts in the following way:
+Now you can use the gitpush alias to run elixir scripts in the following way:
 
 ```bash
 gitpush "what-message for ur commit"
