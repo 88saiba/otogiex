@@ -1,6 +1,6 @@
 defmodule GitPush do
   @username "<YOUR_USERNAME>"
-  @token "<YOUR_PERSONAL_ACCESS_TOKEN>"
+  @token "<YOUR_PERSONAL_ACCESS_TOKENs>"
   @credentials_file System.user_home!() <> "/.git-credentials"
 
   def run([commit_message]) do
