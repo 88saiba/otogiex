@@ -16,7 +16,6 @@ You must have elixir installed on your machine, better using latest version.<br>
 
 Replace `<YOUR_USERNAME>` with your GitHub username.<br>
 Replace `<YOUR_PERSONAL_ACCESS_TOKEN>` with your GitHub personal access token.<br>
-Replace `<YOUR_REPOSITORY>` with the name of your GitHub repository.<br>
 
 ## Use Alias
 Add this code in your `.bashrc` file as an alias:
