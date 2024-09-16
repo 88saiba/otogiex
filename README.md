@@ -39,6 +39,6 @@ Now you can use the gitpush alias to run elixir scripts in the following way:
 gitpush "what-message for ur commit"
 # The "gitpush" command depends on the alias name you have set.
 ```
-<br>
+
 > Remember to use the above code in your local repository, not outside of it. Ensure you're
 > working within the repository you want to push to GitHub.
