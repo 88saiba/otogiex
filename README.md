@@ -4,8 +4,7 @@ in just one command. This script is useful if you have multiple GitHub accounts 
 displaying your personal access token on screen during a live stream. Just run this script.<br>
 <br>
 but if you only use one account and use SSH, don't use this script, this script is intended<br>
-only for those who need it. I don't need comments/criticism if you don't have the needs according<br>
-to the conditions above.
+only for those who need it.
 
 # Requirement
 You must have elixir installed on your machine, better using latest version.<br>
