@@ -1,4 +1,4 @@
-# otogitex
+# otogiex
 Shortens the process of adding, committing, and pushing changes from your local repo to GitHub<br>
 in just one command. This script is useful if you have multiple GitHub accounts and want to avoid<br>
 displaying your personal access token on screen during a live stream. Just run this script.<br>
