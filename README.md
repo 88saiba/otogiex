@@ -14,6 +14,8 @@ i'm not part of ur community.
 # Must Change First
 ## Configuration:
 
+In `gitpush.exs` file:
+
 Replace `<YOUR_USERNAME>` with your GitHub username.<br>
 Replace `<YOUR_PERSONAL_ACCESS_TOKEN>` with your GitHub personal access token.<br>
 
