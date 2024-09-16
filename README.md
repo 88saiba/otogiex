@@ -8,7 +8,8 @@ only for those who need it.
 
 # Requirement
 You must have elixir installed on your machine, better using latest version.<br>
-(Unix-like Distro only!! I'm sorry windows users, i'm not part of ur community).
+*configuration below* is only for unix-like users, I'm sorry windows users,<br>
+i'm not part of ur community.
 
 # Must Change First
 ## Configuration:
