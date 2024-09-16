@@ -9,7 +9,7 @@ defmodule GitPush do
   end
 
   def run(_) do
-    IO.puts("Usage: elixir git_push.exs <commit_message>")
+    IO.puts("Usage: elixir gitpush.exs <commit_message>")
   end
 
   defp run_command(command) do
