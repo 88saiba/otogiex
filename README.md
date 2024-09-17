@@ -1,6 +1,6 @@
 # otogiex
 Shortens the process of adding, committing, and pushing changes from your local repo to GitHub<br>
-in just one command. This is the alternative way if you don't want to use SSH.
+in just one command, This is an alternative way if you don't want to use SSH and prefer not to type many commands.
 
 # Requirement
 You must have elixir installed on your machine, better using latest version.<br>
