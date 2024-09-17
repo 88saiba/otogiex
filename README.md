@@ -1,10 +1,6 @@
 # otogiex
 Shortens the process of adding, committing, and pushing changes from your local repo to GitHub<br>
-in just one command. This script is useful if you have multiple GitHub accounts and want to avoid<br>
-displaying your personal access token on screen during a live stream. Just run this script.<br>
-<br>
-but if you only use one account and use SSH, don't use this script, this script is intended<br>
-only for those who need it.
+in just one command. This is the alternative way if you don't want to use SSH.
 
 # Requirement
 You must have elixir installed on your machine, better using latest version.<br>
